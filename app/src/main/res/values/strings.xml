@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JDR Maggle</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="titre_cthulhu">Cthulhu</string>
+    <string name="titre_cyber">Cyberpunk</string>
+    <string name="titre_naheulbeuk">LE DONJON DE NAHEULBEUK</string>
+
+    <string name="badMoins1D6">-1D6</string>
+    <string name="badMoins1D4">-1D4</string>
+    <string name="bad_aucun">aucun</string>
+    <string name="bad_1D4">+1D4</string>
+    <string name="bad_1D6">+1D6</string>
+
+    <string name="bn_creer">Creer</string>
+    <string name="bn_relancer">Relancer</string>
+    <string name="bn_retour_menu">Retour au menu</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cthulhu_perso">
+
+    <TableLayout
+        android:id="@+id/carac1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/label_for"
+                android:text="FOR : "/>
+            <TextView
+                android:id="@+id/FOR"/>
+
+            <TextView
+                android:id="@+id/label_dex"
+                android:text="DEX : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/DEX"/>
+
+            <TextView
+                android:id="@+id/label_int"
+                android:text="INT : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/INT"/>
+
+            <TextView
+                android:id="@+id/label_idee"
+                android:text="Idee : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/idee"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/label_con"
+                android:text="CON : "/>
+            <TextView
+                android:id="@+id/CON"/>
+
+            <TextView
+                android:id="@+id/label_app"
+                android:text="APP : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/APP"/>
+
+            <TextView
+                android:id="@+id/label_pou"
+                android:text="POU : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/POU"/>
+
+            <TextView
+                android:id="@+id/label_chance"
+                android:text="Chance : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/chance"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/label_tai"
+                android:text="TAI : "/>
+            <TextView
+                android:id="@+id/TAI"/>
+
+            <TextView
+                android:id="@+id/label_san"
+                android:text="SAN : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/SAN"/>
+
+            <TextView
+                android:id="@+id/label_edu"
+                android:text="EDU : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/EDU"/>
+
+            <TextView
+                android:id="@+id/label_connaissance"
+                android:text="Connaissance : "
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/connaissance"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carac1">
+
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/label_mythe"
+                android:text="99-Mythe de cthulhu : "/>
+            <TextView
+                android:id="@+id/mythe"
+                android:text="99"/>
+
+            <TextView
+                android:id="@+id/label_pv"
+                android:text="Point de vie : "
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/PV"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/label_bad"
+                android:text="Bonus aux dommages : "/>
+            <TextView
+                android:id="@+id/BAD" />
+
+            <TextView
+                android:id="@+id/label_pm"
+                android:text="Point de magie : "
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/PM"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bn_relancer_cthulhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bn_relancer"
+            android:background="@color/translucide"
+            android:textColor="@color/white"
+            android:shadowColor="#04E600"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20"
+            android:layout_marginRight="60dp"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/bn_retour_cthulhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bn_retour_menu"
+            android:background="@color/translucide"
+            android:textColor="@color/white"
+            android:shadowColor="#04E600"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20"
+            android:padding="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

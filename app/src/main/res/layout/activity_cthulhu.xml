@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/cthuthlu"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre_cthulhu"
+        android:text="@string/titre_cthulhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:shadowColor="#04E600"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <ImageButton
+            android:id="@+id/cercle_cthulhu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cercle_cthulhu"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:id="@+id/bn_creer_cthulhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bn_creer"
+            android:textColor="@color/white"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</LinearLayout>
