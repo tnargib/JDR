@@ -103,6 +103,7 @@ public class PersoCthulhuActivity extends Activity {
         return multiplicateur * (float)screenInches;
     }
 
+
     public void init(){
         Random alea = new Random();
         //FOR
