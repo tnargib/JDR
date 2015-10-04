@@ -120,9 +120,9 @@
                 android:text="99"/>
 
             <TextView
-                android:id="@+id/label_pv"
-                android:text="Point de vie : "
-                android:layout_marginLeft="20dp"/>
+            android:id="@+id/label_pv"
+            android:text="Point de vie : "
+            android:layout_marginLeft="20dp"/>
             <TextView
                 android:id="@+id/PV"/>
         </TableRow>

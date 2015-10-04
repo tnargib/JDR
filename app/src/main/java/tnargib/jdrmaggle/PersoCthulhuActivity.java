@@ -153,8 +153,8 @@ public class PersoCthulhuActivity extends Activity {
         carac[23].setText(""+(Integer.parseInt(carac[17].getText().toString()) * 5));
         //PV
         carac[25].setText(""+(
-                Integer.parseInt(carac[1].getText().toString())/
-                Integer.parseInt(carac[13].getText().toString())));
+                Integer.parseInt(carac[7].getText().toString())+
+                Integer.parseInt(carac[13].getText().toString())) /2);
         //PM
         carac[27].setText(carac[11].getText().toString());
 
