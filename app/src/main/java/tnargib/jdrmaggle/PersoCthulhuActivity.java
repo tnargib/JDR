@@ -138,7 +138,7 @@ public class PersoCthulhuActivity extends Activity {
         carac[13].setText(""+(
                 (alea.nextInt(6)+7)+
                 (alea.nextInt(6)+7)));
-        //EDU
+        //EDUhttps://github.com/tnargib/JDR.git l"
         carac[17].setText(""+(
                 (alea.nextInt(6)+4)+
                 (alea.nextInt(6)+4)+
