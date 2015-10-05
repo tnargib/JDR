@@ -108,41 +108,41 @@ public class PersoCthulhuActivity extends Activity {
         Random alea = new Random();
         //FOR
         carac[1].setText(""+(
-                (alea.nextInt(6)+1)+
-                (alea.nextInt(6)+1)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+1)));
         //DEX
         carac[3].setText(""+(
-                (alea.nextInt(6)+1)+
-                (alea.nextInt(6)+1)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+1)));
         //CON
         carac[7].setText(""+(
-                (alea.nextInt(6)+1)+
-                (alea.nextInt(6)+1)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+1)));
         //APP
         carac[9].setText(""+(
-                (alea.nextInt(6)+1)+
-                (alea.nextInt(6)+1)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+1)));
         //POU
         carac[11].setText(""+(
-                (alea.nextInt(6)+1)+
-                (alea.nextInt(6)+1)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+1)));
         //INT
         carac[5].setText(""+(
-                (alea.nextInt(6)+7)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+7)));
         //TAI
         carac[13].setText(""+(
-                (alea.nextInt(6)+7)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+7)));
         //EDUhttps://github.com/tnargib/JDR.git l"
         carac[17].setText(""+(
-                (alea.nextInt(6)+4)+
-                (alea.nextInt(6)+4)+
+                alea.nextInt(6)+
+                alea.nextInt(6)+
                 (alea.nextInt(6)+4)));
         //SAN
         carac[15].setText(""+(Integer.parseInt(carac[11].getText().toString()) * 5));
