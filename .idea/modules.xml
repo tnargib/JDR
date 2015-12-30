@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDR.iml" filepath="$PROJECT_DIR$/JDR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDRMaggle.iml" filepath="$PROJECT_DIR$/JDRMaggle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
