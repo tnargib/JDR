@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -18,91 +19,116 @@
         android:layout_marginBottom="30dp">
 
         <TableRow
-            android:layout_marginBottom="5dp">
+            android:layout_marginBottom="5dp"
+            android:weightSum="100" >
             <TextView
                 android:id="@+id/label_for"
-                android:text="FOR : "/>
+                android:text="FOR : "
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/FOR"/>
+                android:id="@+id/FOR"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_dex"
                 android:text="DEX : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/DEX"/>
+                android:id="@+id/DEX"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_int"
                 android:text="INT : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/INT"/>
+                android:id="@+id/INT"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_idee"
                 android:text="Idee : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/idee"/>
+                android:id="@+id/idee"
+                android:layout_weight="12.50" />
         </TableRow>
         <TableRow
             android:layout_marginBottom="5dp">
             <TextView
                 android:id="@+id/label_con"
-                android:text="CON : "/>
+                android:text="CON : "
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/CON"/>
+                android:id="@+id/CON"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_app"
                 android:text="APP : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/APP"/>
+                android:id="@+id/APP"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_pou"
                 android:text="POU : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/POU"/>
+                android:id="@+id/POU"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_chance"
                 android:text="Chance : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/chance"/>
+                android:id="@+id/chance"
+                android:layout_weight="12.50" />
         </TableRow>
         <TableRow
             android:layout_marginBottom="5dp">
             <TextView
                 android:id="@+id/label_tai"
-                android:text="TAI : "/>
+                android:text="TAI : "
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/TAI"/>
+                android:id="@+id/TAI"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_san"
                 android:text="SAN : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/SAN"/>
+                android:id="@+id/SAN"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_edu"
                 android:text="EDU : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/EDU"/>
+                android:id="@+id/EDU"
+                android:layout_weight="12.50" />
 
             <TextView
                 android:id="@+id/label_connaissance"
                 android:text="Connaissance : "
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:layout_weight="12.50" />
             <TextView
-                android:id="@+id/connaissance"/>
+                android:id="@+id/connaissance"
+                android:layout_weight="12.50" />
         </TableRow>
     </TableLayout>
     <TableLayout
